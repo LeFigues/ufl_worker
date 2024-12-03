@@ -1,0 +1,250 @@
+2024-12-02 23:00:14.097 -04:00 [INF] Executed DbCommand (191ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `api_ufl_worker_d`;
+2024-12-02 23:00:16.999 -04:00 [INF] Executed DbCommand (298ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:18.559 -04:00 [INF] Executed DbCommand (180ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='api_ufl_worker_d' AND TABLE_NAME='__EFMigrationsHistory';
+2024-12-02 23:00:18.908 -04:00 [INF] Executed DbCommand (174ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2024-12-02 23:00:18.919 -04:00 [INF] Applying migration '20241203001750_first'.
+2024-12-02 23:00:19.681 -04:00 [INF] Executed DbCommand (190ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2024-12-02 23:00:19.901 -04:00 [INF] Executed DbCommand (219ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Businesses` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Ufl_ID` int NOT NULL,
+    `BusinessName` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `IsDeleted` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Businesses` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:20.182 -04:00 [INF] Executed DbCommand (280ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Positions` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `PositionName` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `Description` longtext CHARACTER SET utf8mb4 NULL,
+    `IsDeleted` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Positions` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:20.422 -04:00 [INF] Executed DbCommand (240ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Roles` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RolName` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `Description` longtext CHARACTER SET utf8mb4 NULL,
+    `IsDeleted` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Roles` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:20.691 -04:00 [INF] Executed DbCommand (268ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Branches` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `BranchName` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `BranchCellphone` longtext CHARACTER SET utf8mb4 NULL,
+    `BusinessId` int NOT NULL,
+    `IsDeleted` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Branches` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Branches_Businesses_BusinessId` FOREIGN KEY (`BusinessId`) REFERENCES `Businesses` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:20.937 -04:00 [INF] Executed DbCommand (246ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Employees` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `FirstName` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `LastName` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `CI` varchar(20) CHARACTER SET utf8mb4 NOT NULL,
+    `Cellphone` varchar(15) CHARACTER SET utf8mb4 NOT NULL,
+    `HireDate` datetime(6) NOT NULL,
+    `FireDate` datetime(6) NULL,
+    `Salary` decimal(65,30) NOT NULL,
+    `UserId` int NOT NULL,
+    `BranchId` int NOT NULL,
+    `PositionId` int NOT NULL,
+    `IsDeleted` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Employees` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Employees_Branches_BranchId` FOREIGN KEY (`BranchId`) REFERENCES `Branches` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_Employees_Positions_PositionId` FOREIGN KEY (`PositionId`) REFERENCES `Positions` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:21.190 -04:00 [INF] Executed DbCommand (253ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Addresses` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `AddressName` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `Direction` varchar(250) CHARACTER SET utf8mb4 NOT NULL,
+    `Reference` varchar(250) CHARACTER SET utf8mb4 NULL,
+    `Lat` double NULL,
+    `Long` double NULL,
+    `EmployeeId` int NOT NULL,
+    `IsDeleted` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Addresses` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Addresses_Employees_EmployeeId` FOREIGN KEY (`EmployeeId`) REFERENCES `Employees` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:21.415 -04:00 [INF] Executed DbCommand (224ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Users` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Username` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `Password` varchar(255) CHARACTER SET utf8mb4 NOT NULL,
+    `Email` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `RolId` int NOT NULL,
+    `EmployeeId` int NULL,
+    CONSTRAINT `PK_Users` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Users_Employees_EmployeeId` FOREIGN KEY (`EmployeeId`) REFERENCES `Employees` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_Users_Roles_RolId` FOREIGN KEY (`RolId`) REFERENCES `Roles` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:21.647 -04:00 [INF] Executed DbCommand (232ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Advertisements` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Title` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `Type` varchar(50) CHARACTER SET utf8mb4 NULL,
+    `Description` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `Date` date NULL,
+    `UserId` int NOT NULL,
+    `RegisterAt` datetime(6) NOT NULL,
+    `IsDeleted` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Advertisements` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Advertisements_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:21.864 -04:00 [INF] Executed DbCommand (217ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Assignments` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Title` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `Register` datetime(6) NOT NULL,
+    `Expired` datetime(6) NULL,
+    `Description` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `UserId` int NOT NULL,
+    `BranchId` int NULL,
+    CONSTRAINT `PK_Assignments` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Assignments_Branches_BranchId` FOREIGN KEY (`BranchId`) REFERENCES `Branches` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_Assignments_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:22.218 -04:00 [INF] Executed DbCommand (353ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Expenses` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Title` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` varchar(500) CHARACTER SET utf8mb4 NOT NULL,
+    `Amount` decimal(65,30) NOT NULL,
+    `BranchId` int NOT NULL,
+    `UserId` int NOT NULL,
+    `RegisterAt` datetime(6) NOT NULL,
+    `IsDeleted` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_Expenses` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Expenses_Branches_BranchId` FOREIGN KEY (`BranchId`) REFERENCES `Branches` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_Expenses_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:22.456 -04:00 [INF] Executed DbCommand (238ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `PaymentSalaries` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `EmployeeId` int NOT NULL,
+    `DateOfPayment` datetime(6) NOT NULL,
+    `TotalHours` double NOT NULL,
+    `ExtraAmount` decimal(65,30) NULL,
+    `Description` longtext CHARACTER SET utf8mb4 NULL,
+    `Amount` decimal(65,30) NOT NULL,
+    `UserId` int NOT NULL,
+    `IsDeleted` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_PaymentSalaries` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_PaymentSalaries_Employees_EmployeeId` FOREIGN KEY (`EmployeeId`) REFERENCES `Employees` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_PaymentSalaries_Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `Users` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:22.668 -04:00 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `AdvertisementEmployees` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `AdvertisementId` int NOT NULL,
+    `EmployeeId` int NOT NULL,
+    `ReadAt` datetime(6) NULL,
+    `IsChecked` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_AdvertisementEmployees` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AdvertisementEmployees_Advertisements_AdvertisementId` FOREIGN KEY (`AdvertisementId`) REFERENCES `Advertisements` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_AdvertisementEmployees_Employees_EmployeeId` FOREIGN KEY (`EmployeeId`) REFERENCES `Employees` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:22.884 -04:00 [INF] Executed DbCommand (216ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `AssignmentEmployees` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `ReadAt` datetime(6) NULL,
+    `TaskStart` datetime(6) NULL,
+    `TaskFinish` datetime(6) NULL,
+    `IsFinished` tinyint(1) NOT NULL,
+    `ResultInformation` longtext CHARACTER SET utf8mb4 NULL,
+    `AssignmentId` int NOT NULL,
+    `EmployeeId` int NOT NULL,
+    `IsDeleted` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_AssignmentEmployees` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AssignmentEmployees_Assignments_AssignmentId` FOREIGN KEY (`AssignmentId`) REFERENCES `Assignments` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_AssignmentEmployees_Employees_EmployeeId` FOREIGN KEY (`EmployeeId`) REFERENCES `Employees` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:23.121 -04:00 [INF] Executed DbCommand (237ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `WorkDays` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Start` datetime(6) NOT NULL,
+    `End` datetime(6) NULL,
+    `Salary` decimal(65,30) NOT NULL,
+    `IsCounted` tinyint(1) NOT NULL,
+    `Lat` longtext CHARACTER SET utf8mb4 NULL,
+    `Lon` longtext CHARACTER SET utf8mb4 NULL,
+    `EmployeeId` int NOT NULL,
+    `PaymentSalarieId` int NULL,
+    `IsDeleted` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_WorkDays` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_WorkDays_Employees_EmployeeId` FOREIGN KEY (`EmployeeId`) REFERENCES `Employees` (`Id`) ON DELETE RESTRICT,
+    CONSTRAINT `FK_WorkDays_PaymentSalaries_PaymentSalarieId` FOREIGN KEY (`PaymentSalarieId`) REFERENCES `PaymentSalaries` (`Id`) ON DELETE RESTRICT
+) CHARACTER SET=utf8mb4;
+2024-12-02 23:00:23.340 -04:00 [INF] Executed DbCommand (219ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Addresses_EmployeeId` ON `Addresses` (`EmployeeId`);
+2024-12-02 23:00:23.546 -04:00 [INF] Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_AdvertisementEmployees_AdvertisementId` ON `AdvertisementEmployees` (`AdvertisementId`);
+2024-12-02 23:00:23.753 -04:00 [INF] Executed DbCommand (207ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_AdvertisementEmployees_EmployeeId` ON `AdvertisementEmployees` (`EmployeeId`);
+2024-12-02 23:00:23.954 -04:00 [INF] Executed DbCommand (200ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Advertisements_UserId` ON `Advertisements` (`UserId`);
+2024-12-02 23:00:24.159 -04:00 [INF] Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_AssignmentEmployees_AssignmentId` ON `AssignmentEmployees` (`AssignmentId`);
+2024-12-02 23:00:24.377 -04:00 [INF] Executed DbCommand (218ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_AssignmentEmployees_EmployeeId` ON `AssignmentEmployees` (`EmployeeId`);
+2024-12-02 23:00:24.589 -04:00 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Assignments_BranchId` ON `Assignments` (`BranchId`);
+2024-12-02 23:00:24.813 -04:00 [INF] Executed DbCommand (224ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Assignments_UserId` ON `Assignments` (`UserId`);
+2024-12-02 23:00:25.031 -04:00 [INF] Executed DbCommand (217ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Branches_BusinessId` ON `Branches` (`BusinessId`);
+2024-12-02 23:00:25.377 -04:00 [INF] Executed DbCommand (346ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Employees_BranchId` ON `Employees` (`BranchId`);
+2024-12-02 23:00:25.627 -04:00 [INF] Executed DbCommand (250ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Employees_CI` ON `Employees` (`CI`);
+2024-12-02 23:00:25.857 -04:00 [INF] Executed DbCommand (229ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Employees_PositionId` ON `Employees` (`PositionId`);
+2024-12-02 23:00:26.057 -04:00 [INF] Executed DbCommand (199ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Expenses_BranchId` ON `Expenses` (`BranchId`);
+2024-12-02 23:00:26.255 -04:00 [INF] Executed DbCommand (197ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Expenses_UserId` ON `Expenses` (`UserId`);
+2024-12-02 23:00:26.465 -04:00 [INF] Executed DbCommand (210ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_PaymentSalaries_EmployeeId` ON `PaymentSalaries` (`EmployeeId`);
+2024-12-02 23:00:26.667 -04:00 [INF] Executed DbCommand (202ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_PaymentSalaries_UserId` ON `PaymentSalaries` (`UserId`);
+2024-12-02 23:00:26.880 -04:00 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Users_Email` ON `Users` (`Email`);
+2024-12-02 23:00:27.094 -04:00 [INF] Executed DbCommand (213ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Users_EmployeeId` ON `Users` (`EmployeeId`);
+2024-12-02 23:00:27.306 -04:00 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Users_RolId` ON `Users` (`RolId`);
+2024-12-02 23:00:27.529 -04:00 [INF] Executed DbCommand (223ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_Users_Username` ON `Users` (`Username`);
+2024-12-02 23:00:27.730 -04:00 [INF] Executed DbCommand (201ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_WorkDays_EmployeeId` ON `WorkDays` (`EmployeeId`);
+2024-12-02 23:00:27.947 -04:00 [INF] Executed DbCommand (216ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_WorkDays_PaymentSalarieId` ON `WorkDays` (`PaymentSalarieId`);
+2024-12-02 23:00:28.139 -04:00 [INF] Executed DbCommand (192ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20241203001750_first', '8.0.11');
+2024-12-02 23:00:28.311 -04:00 [INF] Applying migration '20241203013520_firstversion1'.
+2024-12-02 23:00:29.112 -04:00 [INF] Executed DbCommand (253ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `Users` ADD `IsDeleted` tinyint(1) NOT NULL DEFAULT FALSE;
+2024-12-02 23:00:29.327 -04:00 [INF] Executed DbCommand (215ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `Assignments` ADD `IsDeleted` tinyint(1) NOT NULL DEFAULT FALSE;
+2024-12-02 23:00:29.504 -04:00 [INF] Executed DbCommand (177ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20241203013520_firstversion1', '8.0.11');
+2024-12-02 23:00:29.675 -04:00 [INF] Applying migration '20241203025954_tovps'.
+2024-12-02 23:00:30.372 -04:00 [INF] Executed DbCommand (171ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20241203025954_tovps', '8.0.11');

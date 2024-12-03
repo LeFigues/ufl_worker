@@ -1,0 +1,565 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\workdaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\workdaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\application\\services\\workdayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\application\\services\\workdayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\application\\dtos\\workdaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\application\\dtos\\workdaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\application\\dtos\\validateworkdaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\application\\dtos\\validateworkdaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\holidays.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\holidays.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\core\\entities\\workday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\core\\entities\\workday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\application\\dtos\\endworkdaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\application\\dtos\\endworkdaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\application\\dtos\\startworkdaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\application\\dtos\\startworkdaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\core\\interfaces\\iworkdayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\core\\interfaces\\iworkdayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\logs\\log-20241202.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\logs\\log-20241202.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\paymentsalariecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\paymentsalariecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\assignmentemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\assignmentemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\assignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\assignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\advertisementemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\advertisementemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\advertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\advertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\core\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\core\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\core\\entities\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\core\\entities\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Migrations\\20241203025954_tovps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ufl_worker\\Migrations\\20241203025954_tovps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|c:\\users\\figue\\onedrive\\escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2973F664-93CF-4BFA-8F9C-2B28ECA3C8E3}|ufl_worker\\ufl_worker.csproj|solutionrelative:ufl_worker\\application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Program.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Program.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Program.cs",
+              "RelativeToolTip": "ufl_worker\\Program.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T00:15:53.773Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkDayDto.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\DTOs\\WorkDayDto.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Application\\DTOs\\WorkDayDto.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\DTOs\\WorkDayDto.cs",
+              "RelativeToolTip": "ufl_worker\\Application\\DTOs\\WorkDayDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T04:43:29.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidateWorkDayDto.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\DTOs\\ValidateWorkDayDto.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Application\\DTOs\\ValidateWorkDayDto.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\DTOs\\ValidateWorkDayDto.cs",
+              "RelativeToolTip": "ufl_worker\\Application\\DTOs\\ValidateWorkDayDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T04:43:17.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "ufl_worker\\Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T04:41:54.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "holidays.json",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\holidays.json",
+              "RelativeDocumentMoniker": "ufl_worker\\holidays.json",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\holidays.json",
+              "RelativeToolTip": "ufl_worker\\holidays.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T04:35:11.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkDayService.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\Services\\WorkDayService.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Application\\Services\\WorkDayService.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\Services\\WorkDayService.cs",
+              "RelativeToolTip": "ufl_worker\\Application\\Services\\WorkDayService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:54:54.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EndWorkDayDto.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\DTOs\\EndWorkDayDto.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Application\\DTOs\\EndWorkDayDto.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\DTOs\\EndWorkDayDto.cs",
+              "RelativeToolTip": "ufl_worker\\Application\\DTOs\\EndWorkDayDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:54:27.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StartWorkDayDto.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\DTOs\\StartWorkDayDto.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Application\\DTOs\\StartWorkDayDto.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\DTOs\\StartWorkDayDto.cs",
+              "RelativeToolTip": "ufl_worker\\Application\\DTOs\\StartWorkDayDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:54:05.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WorkDay.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Core\\Entities\\WorkDay.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Core\\Entities\\WorkDay.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Core\\Entities\\WorkDay.cs",
+              "RelativeToolTip": "ufl_worker\\Core\\Entities\\WorkDay.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:53:28.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkDayController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\WorkDayController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\WorkDayController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\WorkDayController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\WorkDayController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:17:16.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IWorkDayRepository.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Core\\Interfaces\\IWorkDayRepository.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Core\\Interfaces\\IWorkDayRepository.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Core\\Interfaces\\IWorkDayRepository.cs",
+              "RelativeToolTip": "ufl_worker\\Core\\Interfaces\\IWorkDayRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:27:20.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "log-20241202.txt",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\logs\\log-20241202.txt",
+              "RelativeDocumentMoniker": "ufl_worker\\logs\\log-20241202.txt",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\logs\\log-20241202.txt",
+              "RelativeToolTip": "ufl_worker\\logs\\log-20241202.txt",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-03T03:26:52.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:17:11.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\RolController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:17:07.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PositionController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\PositionController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\PositionController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\PositionController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\PositionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:17:03.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaymentSalarieController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\PaymentSalarieController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\PaymentSalarieController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\PaymentSalarieController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\PaymentSalarieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:16:58.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\ExpensesController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:16:55.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:16:50.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BusinessController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\BusinessController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\BusinessController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\BusinessController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\BusinessController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:16:47.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BranchController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\BranchController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\BranchController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\BranchController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\BranchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:16:43.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssignmentEmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AssignmentEmployeeController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\AssignmentEmployeeController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AssignmentEmployeeController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\AssignmentEmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:16:38.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AssignmentController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AssignmentController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\AssignmentController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AssignmentController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\AssignmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:16:34.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdvertisementEmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AdvertisementEmployeeController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\AdvertisementEmployeeController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AdvertisementEmployeeController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\AdvertisementEmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:16:29.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdvertisementController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AdvertisementController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\AdvertisementController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AdvertisementController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\AdvertisementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:16:25.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\AddressController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\AddressController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:16:20.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Core\\Entities\\Branch.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Core\\Entities\\Branch.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Core\\Entities\\Branch.cs",
+              "RelativeToolTip": "ufl_worker\\Core\\Entities\\Branch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:10:50.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Core\\Entities\\Position.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Core\\Entities\\Position.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Core\\Entities\\Position.cs",
+              "RelativeToolTip": "ufl_worker\\Core\\Entities\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:10:13.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20241203025954_tovps.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Migrations\\20241203025954_tovps.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Migrations\\20241203025954_tovps.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Migrations\\20241203025954_tovps.cs",
+              "RelativeToolTip": "ufl_worker\\Migrations\\20241203025954_tovps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T02:59:54.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ufl_worker\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T02:44:06.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "ufl_worker\\Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T02:42:46.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "ufl_worker\\Application\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\Application\\Services\\TokenService.cs",
+              "RelativeToolTip": "ufl_worker\\Application\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T02:42:30.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\appsettings.json",
+              "RelativeDocumentMoniker": "ufl_worker\\appsettings.json",
+              "ToolTip": "C:\\Users\\figue\\OneDrive\\Escritorio\\ufl_worker\\ufl_worker\\ufl_worker\\appsettings.json",
+              "RelativeToolTip": "ufl_worker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T02:39:58.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
